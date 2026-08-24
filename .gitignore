@@ -1,0 +1,12 @@
+# Saved plans, lists, and budget checks stay on your machine and out of git by default.
+# To keep them in your own repo, delete the two lines under this comment.
+plans/*
+!plans/.gitkeep
+
+# Your profile and pantry are NOT ignored, because the example ships in the repo.
+# If you push this folder to your own GitHub, keep the repo private or uncomment the next line.
+# family/
+
+# Operating system clutter
+.DS_Store
+Thumbs.db

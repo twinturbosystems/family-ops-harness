@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(family/**)",
+      "Read(plans/**)",
+      "Read(examples/**)",
+      "Write(plans/**)",
+      "Edit(plans/**)"
+    ]
+  }
+}
