@@ -1,6 +1,6 @@
 # Family profile: EXAMPLE
 
-This is a fictional example family (the Haddads) so you can see how the harness works before you fill in your own. Nothing here describes a real household. Replace every section below with yours, or copy `profile.template.md` over this file and start blank. The allergies section matters most; do that one first.
+This is a fictional example family (the Haddads) so you can see how the kit works before you fill in your own. Nothing here describes a real household. Replace every section below with yours, or copy `profile.template.md` over this file and start blank. The allergies section matters most; do that one first.
 
 ## Household
 
