@@ -8,6 +8,8 @@ It is a folder of files you download onto your own computer. Inside it are writt
 
 The instructions also save each job as a short command. You type `/meal-plan` instead of writing a paragraph about your family, your budget, and your allergies every single time. Your household details live in two text files inside the folder, `family/profile.md` and `family/pantry.md`. You fill those in, you edit them, and they stay on your computer. The folder does not sync, upload, or back up anything on its own.
 
+If this turns out to be useful to you, a star on the repo helps other people find it.
+
 ## How it works
 
 The folder is ordinary text files. Nothing in it is compiled, and nothing runs on its own. `CLAUDE.md` holds the standing instructions the helper follows every time: read the profile first, never suggest a listed allergen, ask at most two questions and then produce. Each folder under `.claude/skills` is one named job, written as plain markdown you can open and read.
