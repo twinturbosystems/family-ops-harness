@@ -2,6 +2,7 @@
 name: grocery-list
 description: Build the shopping list for the newest meal plan in plans/, minus what family/pantry.md already has, grouped by store section with quantities and a rough cost. Use when the user asks for a grocery list, a shopping list, or what to buy.
 user-invocable: true
+allowed-tools: Read, Write, Glob
 argument-hint: [optional: a plan file path, or extra items like "add dish soap and bananas"]
 ---
 

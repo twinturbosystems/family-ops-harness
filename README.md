@@ -118,7 +118,7 @@ This is a planning helper. It does not know your health situation or your financ
 
 I build practical things with AI agents, in public, and I wanted something a busy household could open and use on day one, with no build step and no jargon. Ibrahim
 
-## The other two kits
+## The other three kits
 
 Same idea, different job. Each is a separate folder you download the same way.
 
@@ -129,6 +129,10 @@ Read first: https://github.com/twinturbosystems/ai-starter-harness
 Security Starter Kit, for people who are new to security and want their own accounts, devices, and small business locked down.
 Download: https://github.com/twinturbosystems/security-starter-harness/archive/refs/heads/main.zip
 Read first: https://github.com/twinturbosystems/security-starter-harness
+
+GovCon Starter Kit, for a solo government contractor who wins prime contracts and delivers through subcontractors and teaming partners.
+Download: https://github.com/twinturbosystems/govcon-starter-harness/archive/refs/heads/main.zip
+Read first: https://github.com/twinturbosystems/govcon-starter-harness
 
 ## More
 

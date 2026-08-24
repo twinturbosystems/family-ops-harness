@@ -2,6 +2,7 @@
 name: budget-check
 description: Categorize last month's expenses pasted as plain lines, compare them to the monthly plan in family/profile.md, and name the three biggest levers. No bank access; it only sees what is pasted. Use when the user asks to check the budget, review spending, or see where the money went.
 user-invocable: true
+allowed-tools: Read, Write
 argument-hint: [paste expenses, one per line, in any format such as "8/03 Trader Joes 84.12"]
 ---
 

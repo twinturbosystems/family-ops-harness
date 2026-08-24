@@ -2,6 +2,7 @@
 name: meal-plan
 description: Plan seven dinners for the week from family/profile.md and family/pantry.md, with one leftovers night, prep-ahead notes, a kid-friendly swap where it helps, a rough cost under the weekly budget, and no allergens. Use when the user asks for a meal plan, dinner ideas for the week, or what to cook.
 user-invocable: true
+allowed-tools: Read, Write
 argument-hint: [optional: start date, a theme like "cheap week" or "no oven", or things to use up]
 ---
 

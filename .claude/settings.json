@@ -4,8 +4,11 @@
       "Read(family/**)",
       "Read(plans/**)",
       "Read(examples/**)",
-      "Write(plans/**)",
       "Edit(plans/**)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)"
     ]
   }
 }
