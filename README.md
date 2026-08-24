@@ -96,7 +96,7 @@ family-ops-harness-main/
     sample-meal-plan.md     what a finished plan looks like, for the example family
   .claude/
     skills/                 the six commands
-    settings.json           pre-approves saving into plans/ so you are not asked every time
+    settings.json           pre-approves saving into plans/ once you have trusted the folder
 ```
 
 ## Privacy
@@ -106,7 +106,7 @@ family-ops-harness-main/
 - There is no bank connection and no login to anything. The budget check only sees the lines you paste.
 - School forms can carry sensitive details. Paste what you are comfortable sending to the model and leave out things like Social Security numbers. The command will not ask you for them.
 - The `plans/` folder is ignored by git by default. If you push this folder to your own GitHub, the `family/` folder goes with it, so keep that repo private or add `family/` to `.gitignore` first.
-- `.claude/settings.json` lets the helper write into `plans/` without asking each time. Delete that file if you would rather approve every save.
+- `.claude/settings.json` lets the helper write into `plans/` without asking each time, once you have opened the folder in Claude Code and accepted the trust prompt. Before that first trust it asks before every save, which is the safe direction. Delete that file if you would rather approve every save.
 
 ## Not medical or financial advice
 
