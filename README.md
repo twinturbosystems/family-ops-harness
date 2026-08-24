@@ -8,11 +8,27 @@ It is a folder of files you download onto your own computer. Inside it are writt
 
 The instructions also save each job as a short command. You type `/meal-plan` instead of writing a paragraph about your family, your budget, and your allergies every single time. Your household details live in two text files inside the folder, `family/profile.md` and `family/pantry.md`. You fill those in, you edit them, and they stay on your computer. The folder does not sync, upload, or back up anything on its own.
 
+## How it works
+
+The folder is ordinary text files. Nothing in it is compiled, and nothing runs on its own. `CLAUDE.md` holds the standing instructions the helper follows every time: read the profile first, never suggest a listed allergen, ask at most two questions and then produce. Each folder under `.claude/skills` is one named job, written as plain markdown you can open and read.
+
+When you point an assistant at the folder, it reads those instructions before it answers you. From then on it behaves like a household planner for everything you ask, not just the first question. It is not a program that starts up, and nothing is installed on your computer. It is instructions the assistant chooses to follow.
+
+The saved jobs are why you can type one short word instead of describing your family, your budget, and your allergies again every time. `/meal-plan` gives you seven dinners. `/grocery-list` turns the newest plan into shopping. `/week-plan` lays out the days and finds the conflicts. `/budget-check` sorts last month's spending. `/chores` builds the rotation. `/school-forms` takes a form apart and drafts the answers.
+
+Your household details live in two files you own and edit: `family/profile.md` for the people, ages, allergies, budget, stores, and schedule anchors, and `family/pantry.md` for what is already in the house. Finished plans are saved into `plans/` with the date in the filename. All of it sits on your machine, and the folder does not sync, upload, or back anything up on its own.
+
+One honest limitation. An assistant follows instructions, it does not enforce them the way a locked-down program does, so the guardrails in `CLAUDE.md` are strong defaults rather than a guarantee. The allergy rule is written as the rule that beats everything else, and it is still a written rule. Read the ingredients in a plan before you cook from it, and check the label.
+
 ## What you need first
 
-Claude Code. It is Anthropic's assistant that runs in a terminal window on your computer. Install it by following the official guide: https://docs.anthropic.com/en/docs/claude-code
+An AI assistant. This kit works with Claude Code, with Codex, or with a browser chat like ChatGPT. Claude Code is the smoothest of the three, because the folder is built for it: it reads your profile and the instructions by itself and the commands work exactly as typed.
+
+Claude Code is Anthropic's assistant that runs in a terminal window on your computer. Install it by following the official guide: https://docs.anthropic.com/en/docs/claude-code
 
 Claude Code signs in with a Claude account. If you do not have one yet, it walks you through creating one the first time you run it.
+
+If you would rather use Codex or a browser chat, download the folder first the same way, then follow `ONE-PROMPT.md` for the exact steps and the prompt to paste.
 
 ## Download the kit
 
@@ -37,6 +53,16 @@ Two other ways to get the same folder, if you prefer them:
 
 The plan appears on screen and is saved into `plans/` with the date in the filename. Then type `/grocery-list` to turn it into the shopping. Fill in `family/pantry.md` whenever you like; the list gets shorter once it knows what you already have.
 
+## Set it up in your assistant
+
+Downloading the folder above is still the first step. This is how you switch that folder on inside the assistant you already use.
+
+- Claude Code: no prompt needed. Open a terminal in the folder, run `claude`, accept the one-time trust prompt, and type a command. That is the five steps above.
+- Codex CLI: run it inside the folder. It reads `AGENTS.md` by itself, and one short paste-in prompt covers the rest.
+- ChatGPT or another browser chat: there is no folder there, so you attach the instruction files, including your filled-in profile, and paste one setup prompt.
+
+The exact steps and copy-ready prompts for all three are in [ONE-PROMPT.md](ONE-PROMPT.md).
+
 ## What you can type
 
 Six commands. Each one is a conversation, not a form.
@@ -59,6 +85,7 @@ family-ops-harness-main/
   README.md                 this file
   CLAUDE.md                 the standing instructions the helper follows
   AGENTS.md                 the same, for Codex users
+  ONE-PROMPT.md             how to set the kit up in Claude Code, Codex, or a browser chat
   family/
     profile.md              your household (ships filled with a fictional example family)
     profile.template.md     a blank copy of the profile
