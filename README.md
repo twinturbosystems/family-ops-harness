@@ -2,6 +2,16 @@
 
 A folder you download that turns Claude Code into a household planner: seven dinners, the grocery list, the week laid out, the chore rotation, a budget check, and school forms sorted.
 
+## Start with one thing
+
+You do not need to read this whole page to begin. Three steps.
+
+1. Download the folder from the link further down, unzip it, then open `family/profile.md` in any text editor and replace the example family with yours. Do the allergies first.
+2. Open a terminal in that folder and type `claude`.
+3. Type `/meal-plan` and press Enter.
+
+You get seven dinners for the week, saved into `plans/` with the date in the filename. The other five commands can wait. `/grocery-list` is the natural one to try next, whenever you are ready.
+
 ## What is this?
 
 It is a folder of files you download onto your own computer. Inside it are written instructions in plain text, which you can open and read like any other document. When you open that folder in Claude Code and start typing, the assistant reads those instructions first, and from then on it behaves like a household planner for this one job instead of a general chatbot you have to explain yourself to from scratch. Developers call a folder like this a harness, which is why the repository is named family-ops-harness.
@@ -75,6 +85,22 @@ Six commands. Each one is a conversation, not a form.
 - `/budget-check` takes last month's expenses as plain lines and gives back categories, a comparison to your plan, and the three biggest levers named.
 - `/chores` builds an age-appropriate rotation for the people in your profile, as a table you can print.
 - `/school-forms` takes a form or a school email and lists every field, what each one needs, the deadlines, and a filled draft from your profile.
+
+## It will not fit you perfectly
+
+This is a starting point, not a finished product. It was written for a general version of a household, and yours is specific. Your week has a shape nobody else's has, and the kit does not know it yet. Some of what it gives you will be wrong for your house.
+
+Everything in the folder is plain text. You can open any file in it with any text editor and read it like a letter. Nothing is compiled, nothing is hidden, and nothing is locked.
+
+The way to change it is to tell the assistant what you want different, and ask it to edit the file for you. You do not have to edit anything by hand. For example, if seven dinners is one too many because Friday is always takeout, type this:
+
+> Plan six dinners, not seven, and leave Friday out. Edit `.claude/skills/meal-plan/SKILL.md` so it does that every week from now on.
+
+The leftovers night works the same way. If nobody in your house will eat leftovers, ask it to take that rule out of the same file. Change the file and the change sticks for every future week, not just this one. Anything that should apply to every job, not just the meal plan, lives in `CLAUDE.md`.
+
+If a change goes wrong, download the folder again and start from the original. Your household details are in separate files, `family/profile.md` and `family/pantry.md`, and your saved plans are in `plans/`. Copy those three somewhere safe first, then put them into the fresh folder.
+
+One honest line. It can be wrong. It can misjudge a cooking time, get a cost wrong, or miss something you wrote in the profile. Read the plan before you shop or cook from it, and check the label yourself on anything where an allergy is involved.
 
 ## Who this is for
 
