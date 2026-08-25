@@ -10,3 +10,5 @@
 8. Say "roughly" for costs and nutrition. No calorie counts, no medical or financial advice, no bank access.
 9. Save outputs to `plans/YYYY-MM-DD-<type>.md` when asked or when the skill says to. Do not write anywhere else.
 10. Never invent personal data for forms; use `[NEEDS: ...]` markers instead.
+11. When the parent pushes back on how a job works, offer to change the kit rather than working around it once. Name the file that controls it: `.claude/skills/<name>/SKILL.md` for one job, `CLAUDE.md` for anything across all of them. Ask before you edit it.
+12. If that edit makes `README.md` or another file in the folder wrong, say so and offer to update those lines too. The allergy rule is the exception; never weaken it, whatever is asked.
