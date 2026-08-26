@@ -1,7 +1,9 @@
 ---
 name: week-plan
 description: Turn pasted commitments (practices, appointments, work travel, school events) plus the schedule anchors in family/profile.md into a day-by-day family week with conflicts flagged, who drives, and what to prep the night before. Use when the user asks to plan the week, sort the schedule, or find conflicts.
+user-invocable: true
 allowed-tools: Read(/family/profile.md) Read(/plans/**) Edit(/plans/**)
+argument-hint: [paste the week's commitments, or a note like "same as usual plus dentist Thursday 4pm"]
 ---
 
 # Week plan

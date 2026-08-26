@@ -1,7 +1,9 @@
 ---
 name: budget-check
 description: Categorize last month's expenses pasted as plain lines, compare them to the monthly plan in family/profile.md, and name the three biggest levers. No bank access; it only sees what is pasted. Use when the user asks to check the budget, review spending, or see where the money went.
+user-invocable: true
 allowed-tools: Read(/family/profile.md) Edit(/plans/**)
+argument-hint: [paste expenses, plus any current-run budget or category target]
 ---
 
 # Budget check

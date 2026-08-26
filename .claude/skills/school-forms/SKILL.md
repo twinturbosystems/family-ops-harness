@@ -1,7 +1,9 @@
 ---
 name: school-forms
 description: Take a pasted school form, permission slip, or school email and list every field, what each needs, the deadlines, and a filled draft using family/profile.md where possible. Use when the user pastes a form or asks what a school email wants from them.
+user-invocable: true
 allowed-tools: Read(/family/profile.md) Edit(/plans/**)
+argument-hint: [paste the form or email text, or give the path to a PDF or photo]
 ---
 
 # School forms

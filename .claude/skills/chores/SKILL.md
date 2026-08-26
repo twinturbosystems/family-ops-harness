@@ -1,7 +1,9 @@
 ---
 name: chores
 description: Build an age-appropriate chore rotation for the household members in family/profile.md, as a weekly table the family can print. Use when the user asks for chores, a chore chart, or who does what around the house.
+user-invocable: true
 allowed-tools: Read(/family/profile.md) Edit(/plans/**)
+argument-hint: [optional: "two weeks", "add walk the dog", "Leila has exams this week"]
 ---
 
 # Chores

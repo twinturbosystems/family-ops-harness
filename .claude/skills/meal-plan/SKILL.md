@@ -1,7 +1,9 @@
 ---
 name: meal-plan
 description: Plan dinners from family/profile.md and family/pantry.md, with a leftovers night when the run length supports it, prep-ahead notes, a kid-friendly swap where it helps, a rough cost against the active budget, and a screen for listed allergens. Use when the user asks for a meal plan, dinner ideas for the week, or what to cook.
+user-invocable: true
 allowed-tools: Read(/family/profile.md) Read(/family/pantry.md) Edit(/plans/**)
+argument-hint: [optional: start date, dinner count, budget, time or equipment limit, theme, or ingredients to use up]
 ---
 
 # Meal plan

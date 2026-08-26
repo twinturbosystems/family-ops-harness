@@ -1,7 +1,9 @@
 ---
 name: grocery-list
 description: Build the shopping list for the newest meal plan in plans/, minus what family/pantry.md already has, grouped by store section with quantities and a rough cost. Use when the user asks for a grocery list, a shopping list, or what to buy.
+user-invocable: true
 allowed-tools: Read(/family/profile.md) Read(/family/pantry.md) Read(/plans/**) Edit(/plans/**)
+argument-hint: [optional: plan path, budget, store, exclusions, or extra items]
 ---
 
 # Grocery list

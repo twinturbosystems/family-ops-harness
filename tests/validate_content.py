@@ -101,7 +101,10 @@ def test_permission_scopes() -> None:
         "Project allow rules must stay limited to household inputs, the sample, and plans",
     )
     for skill in sorted((ROOT / ".claude" / "skills").glob("*/SKILL.md")):
-        for line in skill.read_text(encoding="utf-8").splitlines():
+        skill_text = skill.read_text(encoding="utf-8")
+        check("user-invocable: true" in skill_text, f"{skill} must remain visible in the command menu")
+        check("argument-hint:" in skill_text, f"{skill} is missing its beginner-facing autocomplete hint")
+        for line in skill_text.splitlines():
             if line.startswith("allowed-tools:"):
                 rules = line.partition(":")[2].split()
                 check(rules, f"{skill} has an empty allowed-tools field")
