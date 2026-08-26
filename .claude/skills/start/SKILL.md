@@ -1,9 +1,7 @@
 ---
 name: start
 description: The first thing to run in this folder. Confirms from the files which kit this is, names the assistant running it, says in one line what the kit does, gives the exact next thing to type, and offers a worked example built on the fictional example family that ships in the folder. Asks for no personal information. Use when the person types "Start the kit", "/start", "start", or asks what this folder is, how to begin, or where to start.
-user-invocable: true
-allowed-tools: Read, Glob
-argument-hint: [nothing needed, just type: Start the kit]
+allowed-tools: Read(/README.md) Read(/.claude/skills/**) Read(/family/profile.md) Read(/family/pantry.md) Read(/examples/sample-meal-plan.md) Read(/docs/STUCK.md)
 ---
 
 # Start the kit

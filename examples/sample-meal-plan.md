@@ -34,6 +34,6 @@ Wednesday. Monday's taco chicken and cheese go into quesadillas with a bowl of r
 - Rough total for new purchases: about $70. That leaves roughly $90 of the $160 for breakfasts, lunches, snacks, and the olive oil and rice that are running low.
 - Costs are rough estimates for a Bay Area Trader Joe's; check your receipt.
 
-Allergen check: no peanuts, tree nuts, or shellfish in this plan. No pesto, nut oils, oyster sauce, or shrimp paste. Fin fish (salmon) is allowed by the profile.
+Allergy screen: I did not find peanuts, tree nuts, or shellfish in the named ingredients. I excluded pesto, nut oils, oyster sauce, and shrimp paste. Fin fish (salmon) is allowed by the profile. This is not a guarantee. Check the full package label every time, including the ingredients, Contains statement, and any voluntary may contain or facility warning. If cross-contact is a concern and the label is unclear, leave it out or contact the manufacturer.
 
 Saved to plans/2026-08-24-meal-plan.md

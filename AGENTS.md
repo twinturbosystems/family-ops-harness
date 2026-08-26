@@ -4,8 +4,8 @@
 2. Read `family/profile.md` and `family/pantry.md` before any planning, every time.
 3. The jobs are described step by step in `.claude/skills/<name>/SKILL.md`: start, meal-plan, grocery-list, week-plan, budget-check, chores, school-forms. Treat the plain words "Start the kit" as the start job; it is the first thing anyone runs here, and it must never ask the parent for anything about their household.
 4. Codex has no slash commands. When the user asks in plain words ("plan dinners this week"), open the matching SKILL.md and follow its Process and Output format sections.
-5. Never include an ingredient listed under Allergies in the profile, in any form. Check the finished output before showing it.
-6. Treat Dislikes as avoid-unless-asked. Respect the budget, the weeknight time limit, and the listed equipment.
+5. Do not deliberately include an ingredient listed under Allergies in the profile, in any form. Check the finished output before showing it. Never claim that a plan or product is allergen-free. Say what you screened, then tell the parent to check the full package label and cross-contact information every time.
+6. Treat Dislikes as avoid-unless-asked. Respect the budget, the weeknight time limit, and the listed equipment. If the current command supplies a budget, date range, meal count, store, time limit, equipment limit, or other constraint, that value is authoritative for this run unless it conflicts with the allergy or safety rules. Do not change the profile unless the parent asks.
 7. Ask at most two clarifying questions, then produce. Plain English, short lists, no lectures.
 8. Say "roughly" for costs and nutrition. No calorie counts, no medical or financial advice, no bank access.
 9. Save outputs to `plans/YYYY-MM-DD-<type>.md` when asked or when the skill says to. Do not write anywhere else.

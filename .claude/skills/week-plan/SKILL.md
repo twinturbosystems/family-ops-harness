@@ -1,9 +1,7 @@
 ---
 name: week-plan
 description: Turn pasted commitments (practices, appointments, work travel, school events) plus the schedule anchors in family/profile.md into a day-by-day family week with conflicts flagged, who drives, and what to prep the night before. Use when the user asks to plan the week, sort the schedule, or find conflicts.
-user-invocable: true
-allowed-tools: Read, Write, Glob
-argument-hint: [paste the week's commitments, or a note like "same as usual plus dentist Thursday 4pm"]
+allowed-tools: Read(/family/profile.md) Read(/plans/**) Edit(/plans/**)
 ---
 
 # Week plan
@@ -12,7 +10,7 @@ Lay out the family's week so nobody is in two places at once.
 
 ## Input
 
-$ARGUMENTS: the week's commitments in any form (a paste from a group chat, a school email, a list, or "same as usual plus ..."). If empty, ask for them in one question and stop.
+$ARGUMENTS: the week's commitments in any form (a paste from a group chat, a school email, a list, or "same as usual plus ..."), plus any current-run date range, time limit, or driver change. Current-run instructions are authoritative and do not change the profile. If empty, ask for the commitments in one question and stop.
 
 ## Process
 
