@@ -2,9 +2,11 @@
 
 You should not need a prompt at all. Claude Code reads `CLAUDE.md` and the `.claude/skills` folder by itself.
 
-1. Open a terminal in the unzipped folder. A terminal is the plain text window where you type commands to your computer.
+Claude Code requires an eligible account. Install it with Anthropic's current native steps at https://code.claude.com/docs/en/installation.
+
+1. Open a terminal in the unzipped folder. On Windows, right-click the folder and choose Open in Terminal. On a Mac, open Terminal, type `cd ` with a space, drag the folder into the window, and press Enter. On Linux, right-click the folder and choose Open in Terminal, or use `cd` to open it there. A terminal is the plain text window where you type commands to your computer.
 2. Type `claude` and press Enter.
-3. Say yes to the one-time trust prompt. It only appears once per folder.
+3. Review the one-time trust prompt. It lets this folder's project settings and skills take effect. Confirm that the displayed path is the kit folder you meant to open, and trust it only if the path is correct.
 4. Type `Start the kit` and press Enter.
 
 The commands, once you are going:

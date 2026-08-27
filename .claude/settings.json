@@ -1,14 +1,15 @@
 {
   "permissions": {
     "allow": [
-      "Read(family/**)",
-      "Read(plans/**)",
-      "Read(examples/**)",
-      "Edit(plans/**)"
+      "Read(/family/profile.md)",
+      "Read(/family/pantry.md)",
+      "Read(/plans/**)",
+      "Read(/examples/sample-meal-plan.md)",
+      "Edit(/plans/**)"
     ],
     "deny": [
-      "Read(./.env)",
-      "Read(./.env.*)"
+      "Read(/.env)",
+      "Read(/.env.*)"
     ]
   }
 }

@@ -18,7 +18,7 @@ Do this: close the assistant, open a terminal in the unzipped folder itself, not
 
 A question came up asking whether you trust the files in this folder, or whether to allow saving a plan.
 
-Do this: choose yes. This is the folder you just downloaded and unzipped yourself. The trust question appears once per folder, and the kit cannot read your profile or save a plan until you answer it.
+Do this: read the exact action and path in the prompt. For a folder trust prompt, continue only if the displayed path is the kit folder you meant to open; trusting it lets that folder's project settings and skills take effect. For a save prompt, continue only if it names the expected file under this kit's `plans/` folder. Cancel anything else and check where the assistant is running.
 
 ## The wrong instructions are being used
 

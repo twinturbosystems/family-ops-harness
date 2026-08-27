@@ -16,22 +16,21 @@ What it can do is real: advice, analysis, drafts, and copy-ready checklists, inc
 
 1. Unzip the downloaded folder.
 2. Start a new chat.
-3. Attach these files from the folder:
-   - `CLAUDE.md`
-   - `family/profile.md`, the one you filled in with your household
-   - `family/pantry.md`
-   - `.claude/skills/meal-plan/SKILL.md`
-   - `.claude/skills/grocery-list/SKILL.md`
+3. Before attaching anything, decide what you are willing to send to the assistant's provider. Every attached file and message leaves this folder as part of the chat. The safest first run uses the fictional example files that ship with the kit. For your own household, remove anything the plan does not need. Do not attach Social Security numbers, account numbers, insurance IDs, medical record numbers, or other secrets.
+4. Attach these three visible files from the folder:
+   - `browser-prompts/family-ops-browser-bundle.md`
+   - `family/profile.md`, either the fictional example or the copy you chose to share
+   - `family/pantry.md`, either the fictional example or the copy you chose to share
 
-   Attach the other four SKILL.md files as well if you want those jobs in the same chat.
-4. Paste this:
+   For `grocery-list`, also attach the meal plan you want turned into a list. You do not need to show hidden files or attach anything from `.claude`.
+5. Paste this:
 
 ```
-I have attached the instruction files for a household planning kit. Read all of them before you answer anything. Treat CLAUDE.md as your standing instructions for this whole conversation: follow it exactly, above all the allergy rule, and use its tone, its ask-at-most-two-questions rule, and its output style. Treat each attached SKILL.md as one named job triggered by its command word, so when I type meal-plan you follow the meal-plan SKILL.md, and when I type grocery-list you follow that one. Use the attached family profile and pantry as the facts about my household, and read them before you plan anything. You are running in limited browser mode, so you cannot see or change the folder on my computer: do not claim to have read, written, or saved any file, and give me text I can copy instead. If I ask for something the attached files do not cover, ask me rather than assuming. Start by telling me in one line which jobs you now have, then wait for me.
+Read family-ops-browser-bundle.md first and follow it for this conversation. Use the attached family profile and pantry as the household facts. You are in limited browser mode, so do not claim to read or change any file that I did not attach, and do not claim to save anything on my computer. Give me text I can copy. Start by telling me in one line which jobs the bundle provides, then wait for me.
 ```
 
 ## Two plain notes
 
-Browser chats do not keep files between conversations, so attach them again each time you start a new chat.
+Browser chats may not keep attached files available in a later conversation, so attach them again when needed.
 
-Anything you type or attach there is sent to that provider, so leave out what you would not want to send, such as a Social Security number on a school form.
+For allergies, treat the output as a screen of named ingredients, not a guarantee. Check the full package label every time, including the ingredients, Contains statement, and any voluntary may contain or facility warning. If cross-contact is a concern and the label is unclear, leave it out or contact the manufacturer.
